@@ -27,6 +27,8 @@ body {
 }
 
 .container {
+	display: block;
+	overflow: auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -48,6 +50,8 @@ body {
   }
 }
 .container-full {
+	display:block;
+	overflow: auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
