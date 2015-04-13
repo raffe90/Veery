@@ -18,6 +18,7 @@
 	<meta name="description" content="">
 	<title>Veery</title>
 	<link href="css/grid.css" rel="stylesheet" type="text/css">
+	<link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -51,4 +52,4 @@
 		</nav>
 		</header><!-- header role="banner" -->
 	</div><!-- container-fluid -->
-<div class="container">
+<div id="app-content" class="container">
