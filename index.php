@@ -9,8 +9,31 @@
 			</div>
 
 			<div id="content-handler" class="col col_7">
-				<h1>Esto es contenido cambiante</h1>
-				<p>En cada página este marco cambiara.</p>
+				<div class="row">
+					<div class="col col_6">
+						
+					</div>
+					<div class="col col_3">
+						
+					</div>
+					<div class="col col_3">
+						
+					</div>										
+				</div>
+				<div class="row">
+					<div class="col col_3">
+						
+					</div>
+					<div class="col col_3">
+						
+					</div>
+					<div class="col col_3">
+						
+					</div>
+					<div class="col col_3">
+						
+					</div>																
+				</div>				
 			</div>
 			
 			<div id="left-sidebar" class="col col_3">

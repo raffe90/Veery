@@ -1,3 +1,6 @@
+<?php
+	include_once('constants.php');
+?>
 <!DOCTYPE html>
 <!-- HTML5 Boilerplate -->
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-ES>"> <![endif]-->
@@ -14,26 +17,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Rafael Ramirez Urbina (www.fundaseth.es)">
 	<meta name="designer" content="Rafael Ramirez Urbina (www.fundaseth.es)">
-	<!-- <title><?php if($data['title'] != ''){echo $data['title'].' | '.SITETITLE;}else{echo SITETITLE;} ?></title> -->
+	<title><?php echo SITETITLE; ?></title> 
 	<meta name="description" content="">
-	<title>Veery</title>
+	<!-- <title>Veery</title>-->
 	<link href="css/grid.css" rel="stylesheet" type="text/css">
 	<link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<div class="container-fluid">
-		<header role="banner">
+	<div class="container-full">
+		<header>
 		<div id="logo-placeholder">
 			<div class="container">
 			  <img id="logo" src="img/logo/veryLogo.png" alt="Veery">
 			</div>
 		</div>
-		<nav id="navbar-primary" class="navbar navbar-default" role="navigation">
-		  <div class="container-fluid">
+		<nav id="navbar" class="navbar navbar-default">
+		  <div class="container-full">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+		      <button type="button" class="menu-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
 		        <span class="sr-only">Menú</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
